@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>dio-avanade-project02</name>
+    </assembly>
+    <members>
+        <member name="M:dio_avanade_project02.Controllers.V1.JogosController.Obter(System.Int32,System.Int32)">
+            <summary></summary>
+            <remarks></remarks>
+            <param name="pagina"></param>
+            <param name="quantidade"></param>
+            <response code="200"></response>
+            <response code="204"></response>   
+        </member>
+        <member name="M:dio_avanade_project02.Controllers.V1.JogosController.Obter(System.Guid)">
+            <summary></summary>
+            <param name="idJogo"></param>
+            <response code="200"></response>
+            <response code="204"></response>   
+        </member>
+        <member name="M:dio_avanade_project02.Controllers.V1.JogosController.InserirJogo(dio_avanade_project02.InputModel.JogoInputModel)">
+            <summary></summary>
+            <param name="jogoInputModel"></param>
+            <response code="200"></response>
+            <response code="422"></response>   
+        </member>
+        <member name="M:dio_avanade_project02.Controllers.V1.JogosController.AtualizarJogo(System.Guid,dio_avanade_project02.InputModel.JogoInputModel)">
+            <summary></summary>
+            <param name="idJogo"></param>
+            <param name="jogoInputModel"></param>
+            <response code="200"></response>
+            <response code="404"></response>   
+        </member>
+        <member name="M:dio_avanade_project02.Controllers.V1.JogosController.AtualizarJogo(System.Guid,System.Double)">
+            <summary></summary>
+            <param name="idJogo"></param>
+            <param name="preco"></param>
+            <response code="200"></response>
+            <response code="404"></response>   
+        </member>
+        <member name="M:dio_avanade_project02.Controllers.V1.JogosController.ApagarJogo(System.Guid)">
+            <summary></summary>
+            <param name="idJogo"></param>
+            <response code="200"></response>
+            <response code="404"></response>   
+        </member>
+    </members>
+</doc>
